@@ -76,7 +76,7 @@ class BigramLanguageModel(nn.Module):
         pos_emb = self.positon_embedding_table(torch.arange(T, device=device)) # (T,C)
         x = token_emb + pos_emb # (B,T,C)
         logits = self.lm_head(x) # (B,T, vocab_size)
-        
+
         if targets is None:
             loss = None
         else:
