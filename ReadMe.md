@@ -1,16 +1,18 @@
-# Nano-GPT
+# Baby-GPT
 
-Nano-GPT is a minimalistic implementation of GPT (Generative Pre-trained Transformer) for educational purposes. This project aims to provide a simple and clear understanding of how GPT models work.
+Baby-GPT is a minimalistic implementation of GPT (Generative Pre-trained Transformer) for educational purposes. This project aims to provide a simple and clear understanding of how GPT models work. We implement a simple version of the architecure described in the Attention is All You Need Paper. 
+![image](https://github.com/user-attachments/assets/e03b6bfc-14ed-43b2-9da3-5a4d04259766)
 
-## Features
+- we implemented:
+- character tokenizer
+- decoder
+- self attention
+- multi headed attention
 
-- Basic implementation of GPT architecture
-- Easy to understand and modify
-- Educational and well-documented code
 
 ## Installation
 
-To get started with Nano-GPT, clone the repository and install the required dependencies:
+To get started with baby-gpt, clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/yourusername/nano-gpt.git
@@ -26,11 +28,7 @@ To train the model, run the following command:
 python train.py
 ```
 
-To generate text using the trained model, use:
-
-```bash
-python generate.py --prompt "Your prompt here"
-```
+It should automitcally generate the following text. Please increase the hyperparemeters for more accuracy but make sure you have a strong gpu
 
 ## Contributing
 
