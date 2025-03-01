@@ -8,6 +8,7 @@ Baby-GPT is a minimalistic implementation of GPT (Generative Pre-trained Transfo
 - decoder
 - self attention
 - multi headed attention
+- adam
 
 
 ## Installation
